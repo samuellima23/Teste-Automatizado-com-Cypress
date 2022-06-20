@@ -11,8 +11,5 @@ class LoginPage {
         return cy.get('.link').should('contain', 'Precisa de ajuda?');
     }
 
-    submit() {
-        return cy.get('[type=submit]')
-    }
 }
 export default LoginPage
